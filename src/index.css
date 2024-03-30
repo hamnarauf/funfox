@@ -28,8 +28,6 @@ code {
 .lesson-footer {
   background-image: url('./assets/covers/lesson-footer.svg');
   background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
 }
 
 .activity-question {
@@ -75,17 +73,18 @@ code {
   align-items: center;
   justify-content: center;
   gap: 0.75rem;
+  height: 100%;
 }
 
 
 
 @media screen and (max-width: 1270px) {
-  .slide-container{
+  .slide-container {
     padding-left: 0;
     padding-right: 0;
   }
 
-  .week{
+  .week {
     margin-left: 64px;
   }
 }
@@ -100,11 +99,11 @@ code {
     font-size: 24px;
   }
 
-  .green-bg{
+  .green-bg {
     font-size: 20px;
     line-height: 24px;
   }
-  
+
 }
 
 
@@ -122,10 +121,6 @@ code {
     font-size: 24px;
     line-height: 27px;
   }
-
-  /* .slide {
-    gap: 0.5rem;
-  } */
 
   .green-bg {
     font-size: 16px;
