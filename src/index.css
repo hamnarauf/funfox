@@ -1,13 +1,78 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Short+Stack&display=swap');
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: "Short Stack", cursive;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: "Short Stack", cursive;
 }
+
+* {
+  box-sizing: border-box;
+}
+
+.paragraph {
+  font-size: 24px;
+  line-height: 29px;
+}
+
+.lesson-footer {
+  background-image: url('./assets/lesson-footer.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.activity-question {
+  font-size: 32px;
+}
+
+.green-bg {
+  background-color: #25A3A1;
+  border: 3px dashed #A4FDFB;
+  padding: 10px 15px;
+  font-size: 24px;
+  line-height: 33px;
+  color: white;
+  font-weight: 400;
+}
+
+.white-bg {
+  background-color: white;
+  border: 3px dashed #CCCCCC !important;
+  border-radius: 10px;
+}
+
+.image {
+  height: min-content;
+  max-width: min-content;
+}
+
+.lesson-heading {
+  background-color: #FE6784;
+  border: 5px dotted #FFAEBE;
+  border-radius: 25px;
+  color: white;
+  padding: 0.25rem 1.5rem;
+  font-size: 32px;
+  line-height: 35px;
+  text-align: center;
+  white-space: nowrap;
+
+}
+
+.slide{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+  }
