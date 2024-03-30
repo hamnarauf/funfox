@@ -1,43 +1,44 @@
-import Cover from "../assets/cover.svg";
-import Week1 from "../assets/week1.svg";
-import LeftCover from "../assets/left-cover.svg";
-import RightCover from "../assets/right-cover.svg";
-import LeftArrow from "../assets/arrow-left.svg";
-import RightArrow from "../assets/arrow-right.svg";
-import UserHelp from "../assets/user-help.svg";
-import Info from "../assets/info.svg";
-import Thinking from "../assets/thinking.svg";
-import LessonFooterCover from "../assets/lesson-footer.svg";
-import CloudBg from "../assets/cloud.svg";
-import CloudSmall from "../assets/clouds/cloud-sm.svg";
-import CloudMedium from "../assets/clouds/cloud-md.svg";
-import CloudLarge from "../assets/clouds/cloud.lg.svg";
-import Down from "../assets/down.svg";
-import SlidePicker from "../assets/slide-picker.svg";
-import Beach from "../assets/beach.svg";
-import Night from "../assets/night.svg";
-import Home from "../assets/home.svg";
-import Clock from "../assets/clock.svg"
+// covers
+import LeftCover from "../assets/covers/left-cover.svg";
+import RightCover from "../assets/covers/right-cover.svg";
+
+// icons
+import Home from "../assets/icons/home.svg";
+import Clock from "../assets/icons/clock.svg";
+
+// images
+import Beach from "../assets/images/beach.svg";
+import Night from "../assets/images//night.svg";
+import Thinking from "../assets/images/thinking.svg";
+import CloudSmall from "../assets/images/clouds/cloud-sm.svg";
+import CloudMedium from "../assets/images/clouds/cloud-md.svg";
+import CloudLarge from "../assets/images/clouds/cloud.lg.svg";
+import Week1 from "../assets/images/week1.svg";
+
+// navigation
+import LeftArrow from "../assets/navigation/arrow-left.svg";
+import RightArrow from "../assets/navigation/arrow-right.svg";
+import UserHelp from "../assets/navigation/user-help.svg";
+import Info from "../assets/navigation/info.svg";
+import Down from "../assets/navigation/down.svg";
+import SlidePicker from "../assets/navigation/slide-picker.svg";
 
 export {
-  Cover,
-  Week1,
   LeftCover,
   RightCover,
+  Home,
+  Clock,
+  Beach,
+  Night,
+  Thinking,
+  CloudSmall,
+  CloudMedium,
+  CloudLarge,
+  Week1,
   LeftArrow,
   RightArrow,
   UserHelp,
   Info,
-  Thinking,
-  LessonFooterCover,
-  CloudBg,
-  CloudSmall,
-  CloudMedium,
-  CloudLarge,
   Down,
   SlidePicker,
-  Beach,
-  Night,
-  Home,
-  Clock,
 };
