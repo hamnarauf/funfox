@@ -1,12 +1,13 @@
-import { Info, LeftCover, RightCover, UserHelp, Week1 } from "../images";
+import { FunFox, Info, LeftCover, RightCover, UserHelp, Week1 } from "../images";
 import SliderNavigation from "./SliderNavigation";
 
 export default function Slider({ activeSlide, setActiveSlide, children }) {
   return (
-    <div className="flex bg-pink relative">
-      <img src={LeftCover} alt="left-cover" className="image" />
-      <div className="flex flex-col relative top-0 left-0 py-[12px] px-[64px]">
-        <img src={Week1} alt="week 1" className="image" />
+    <div className="flex bg-pink relative overflow-hidden">
+      <img src={FunFox} alt="fun fox" className="image absolute top-0 left-[-6px]"/>
+      <img src={LeftCover} alt="left-cover" className="image mt-24" />
+      <div className="flex flex-col py-[12px] px-[64px] slide-container">
+        <img src={Week1} alt="week 1" className="image week" />
 
         {/* slide content goes here */}
         <div className="bg-lightGrey mt-[16px] mb-[10px] rounded-[20px] flex p-[20px] pb-[40px]">
@@ -18,7 +19,7 @@ export default function Slider({ activeSlide, setActiveSlide, children }) {
           setActiveSlide={setActiveSlide}
         />
       </div>
-      <img src={RightCover} className="image" alt="right-cover" />
+      <img src={RightCover} className="image lg:mr-0 md:mr-[-20px]" alt="right-cover" />
     </div>
   );
 }

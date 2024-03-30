@@ -10,12 +10,14 @@ export default function StoryElements() {
       <div className="lesson-heading">{StoryElementsData.title}</div>
       <div className="paragraph">{StoryElementsData.introduction}</div>
       <ImageParagraph image={Thinking} text={StoryElementsData.description} />
-      <div className="flex justify-between my-2 w-full">
+      <div className="flex lg:justify-between my-2 w-full flex-wrap sm:justify-center gap-2">
         {StoryElementsData.elements.map((element, index) => (
           <Cloud key={index} text={element.name} cloud={element.cloud} />
         ))}
       </div>
-      <div className="paragraph mb-3">{StoryElementsData.conclusion}</div>
+      <div className="paragraph lg:mb-3 md:mb-1">
+        {StoryElementsData.conclusion}
+      </div>
       <LessonFooter points={StoryElementsData.footer.points} />
     </div>
   );

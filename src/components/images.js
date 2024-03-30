@@ -5,6 +5,7 @@ import RightCover from "../assets/covers/right-cover.svg";
 // icons
 import Home from "../assets/icons/home.svg";
 import Clock from "../assets/icons/clock.svg";
+import FunFox from "../assets/icons/funfox.svg";
 
 // images
 import Beach from "../assets/images/beach.svg";
@@ -28,6 +29,7 @@ export {
   RightCover,
   Home,
   Clock,
+  FunFox,
   Beach,
   Night,
   Thinking,

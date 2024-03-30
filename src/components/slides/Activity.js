@@ -5,7 +5,7 @@ import { ActivityData } from "../../constants/SlidesData/Activity";
 
 export default function Activity() {
   return (
-    <div className="slide text-[20px]">
+    <div className="slide lg:text-[20px] sm:text-[16px]">
       <div className="activity-question">{ActivityData.title}</div>
       <div className="paragraph self-start">{ActivityData.hint}</div>
       <div className="flex justify-evenly w-full">
@@ -14,10 +14,10 @@ export default function Activity() {
         ))}
       </div>
       <div className="self-start">{ActivityData.question}</div>
-      <div className="flex whitespace-nowrap gap-3 items-center my-2 w-full">
+      <div className="flex whitespace-nowrap lg:gap-3 items-center my-2 w-full sm:gap-1">
         <div>Any guesses?</div>
         <Input />
-        <div className="flex items-center gap-3 mx-5">
+        <div className="flex items-center lg:gap-3 lg:mx-5 md:mx-2 md:gap-1">
           Hints:
           <img src={Clock} alt="clock" />
           <img src={Home} alt="home" />
