@@ -6,6 +6,7 @@ import RightCover from "../assets/covers/right-cover.svg";
 import Home from "../assets/icons/home.svg";
 import Clock from "../assets/icons/clock.svg";
 import FunFox from "../assets/icons/funfox.svg";
+import GuideSheet from "../assets/icons/guide-sheet.svg";
 
 // images
 import Beach from "../assets/images/beach.svg";
@@ -23,6 +24,7 @@ import UserHelp from "../assets/navigation/user-help.svg";
 import Info from "../assets/navigation/info.svg";
 import Down from "../assets/navigation/down.svg";
 import SlidePicker from "../assets/navigation/slide-picker.svg";
+import Close from "../assets/navigation/close.svg";
 
 export {
   LeftCover,
@@ -30,6 +32,7 @@ export {
   Home,
   Clock,
   FunFox,
+  GuideSheet,
   Beach,
   Night,
   Thinking,
@@ -43,4 +46,5 @@ export {
   Info,
   Down,
   SlidePicker,
+  Close,
 };

@@ -32,7 +32,7 @@ function SliderActions({ activeSlide, setActiveSlide }) {
         activeSlide={activeSlide}
         setActiveSlide={setActiveSlide}
       />
-      <img src={Info} className="image" alt="user help" />
+      <img src={Info} className="image" alt="info" />
     </div>
   );
 }

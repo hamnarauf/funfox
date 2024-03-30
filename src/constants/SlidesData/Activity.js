@@ -26,4 +26,5 @@ export const ActivityData = {
   ),
   description:
     "The time of the story could be in the past, future, day, night, summer or winter. A story may take place in a school, a mall, a desert, an airplane or in a variety of other places.",
+  answer: "Settings is the time and place of a story.",
 };
